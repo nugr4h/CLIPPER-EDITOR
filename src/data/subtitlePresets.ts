@@ -1,0 +1,100 @@
+import { SubtitleStyle, HookConfig } from '../types';
+
+export const SUBTITLE_PRESETS: Record<string, SubtitleStyle> = {
+  hormozi: {
+    fontFamily: 'Montserrat',
+    presetName: 'hormozi',
+    fontSize: 34,
+    textColor: '#FFFFFF',
+    highlightColor: '#FFE600', // Alex Hormozi Yellow
+    secondaryHighlightColor: '#00FF66', // Bright Green
+    strokeColor: '#000000',
+    strokeWidth: 4,
+    positionY: 72,
+    uppercase: true,
+    showEmoji: true,
+    wordsPerScreen: 3,
+    boxBackground: false,
+    boxBgColor: 'rgba(0, 0, 0, 0.65)',
+    animationStyle: 'pop',
+  },
+  beast: {
+    fontFamily: 'Anton',
+    presetName: 'beast',
+    fontSize: 38,
+    textColor: '#FFFFFF',
+    highlightColor: '#00FF66', // MrBeast Neon Green
+    secondaryHighlightColor: '#FFCC00',
+    strokeColor: '#000000',
+    strokeWidth: 5,
+    positionY: 70,
+    uppercase: true,
+    showEmoji: true,
+    wordsPerScreen: 2,
+    boxBackground: false,
+    boxBgColor: 'rgba(0,0,0,0.8)',
+    animationStyle: 'bounce',
+  },
+  cyber: {
+    fontFamily: 'Space Grotesk',
+    presetName: 'cyber',
+    fontSize: 32,
+    textColor: '#FFFFFF',
+    highlightColor: '#00E5FF', // Cyan Neon
+    secondaryHighlightColor: '#FF007F', // Hot Magenta
+    strokeColor: '#0A0A1F',
+    strokeWidth: 3,
+    positionY: 74,
+    uppercase: true,
+    showEmoji: true,
+    wordsPerScreen: 3,
+    boxBackground: true,
+    boxBgColor: 'rgba(10, 10, 30, 0.75)',
+    animationStyle: 'glow',
+  },
+  fire_red: {
+    fontFamily: 'Bebas Neue',
+    presetName: 'fire_red',
+    fontSize: 42,
+    textColor: '#FFFFFF',
+    highlightColor: '#FF2A2A', // Hot Red
+    secondaryHighlightColor: '#FFAA00',
+    strokeColor: '#000000',
+    strokeWidth: 5,
+    positionY: 68,
+    uppercase: true,
+    showEmoji: true,
+    wordsPerScreen: 2,
+    boxBackground: false,
+    boxBgColor: 'rgba(0, 0, 0, 0.7)',
+    animationStyle: 'pop',
+  },
+  minimal: {
+    fontFamily: 'Inter',
+    presetName: 'minimal',
+    fontSize: 26,
+    textColor: '#FFFFFF',
+    highlightColor: '#60A5FA', // Soft Blue
+    secondaryHighlightColor: '#A78BFA',
+    strokeColor: '#000000',
+    strokeWidth: 2,
+    positionY: 76,
+    uppercase: false,
+    showEmoji: false,
+    wordsPerScreen: 4,
+    boxBackground: true,
+    boxBgColor: 'rgba(0, 0, 0, 0.6)',
+    animationStyle: 'fade',
+  },
+};
+
+export const DEFAULT_HOOK_CONFIG: HookConfig = {
+  enabled: true,
+  text: '⚠️ JANGAN SKIP! FAKTA INI JARANG DIBONGKAR...',
+  style: 'yellow_marker',
+  duration: 3.5,
+  animation: 'zoom_pop',
+  textColor: '#000000',
+  bgColor: '#FFE600',
+  playSound: true,
+};

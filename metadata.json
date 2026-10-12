@@ -1,0 +1,6 @@
+{
+  "name": "AutoClip AI - Viral Podcast & YouTube Video Cutter",
+  "description": "Aplikasi cerdas pembuat klip viral podcast dan YouTube otomatis dengan pendeteksi multi-angle kamera, kustomisasi subtitle karaoke, dan hook otomatis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
